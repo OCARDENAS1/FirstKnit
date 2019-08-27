@@ -1,0 +1,96 @@
+---
+title: "First Knit"
+author: "Your Name"
+date: "Date, 2019"
+output: 
+  html_document:
+    number_sections: true
+    toc: true
+---
+
+### `r as.character(Sys.Date())`
+
+```{r include=FALSE,echo=FALSE}
+require(tidyverse)
+if(!require("imager")) {install.packages("imager");require("imager")}
+
+```
+
+```{r echo=FALSE,out.width='100%'}
+xx<-getwd()
+Drive_ltr <- strtrim(xx,2)
+yy <- str_glue("{Drive_ltr}\\AAA_Owner_Info\\My_photo.jpg")
+my_pict <- load.image(yy)
+plot(my_pict,axes=FALSE,main="I'm Confused")
+```
+
+# A Little Survey
+
+Here are just a few questions so I can get to know you and so you can get practice submitting an assignment in Canvas.  For each question, insert your answer underneath. Make sure each answer is at the minimum a complete sentence with correctly spelled words and correct puncuation. Half the points in this assignment depend on your picture and name being correct!!  Be sure to put your photo in the AAA_Owner_Info folder and call it My_photo.jpg after first renaming the current one to Koala.jpg . 
+
+##Where are you now?  
+What row are you in, front,middle or back?  Do you usually choose a similiar row in other classes? What is the computer number where you are sitting?  How on a scale of 1 to 10 (1=low, 10=high) How you feel about periodic seat re-assignment, say how and why. Teams, have you ever worked on one in a class setting?  
+
+
+
+
+###my answer     
+  I am sitting in the second row. Yes, I choose the second row, because the first row is too close but i'd still like to be near the front. I am on computer 13. I feel that I would adjust myself to a seat reassignment, as I enjoy change. I have worked in a class team.
+   
+     
+
+
+##Others and You?   
+What name do you prefer to be called by your classmates and instructor, if your buddys call you something but you want me to call you something else - what would that be? 
+
+###my answer     
+  I'm fine with being called Oscar, that's my name everywhere, say it how you'd like.
+   
+ 
+
+
+
+
+##Aspirations?   
+What do you want to achieve in life?  What college subject do you think would be of the greatest interest to you? What degree or certificate are you trying to achieve?
+
+###my answer     
+  I just want to achieve being financially stable. I feel that the college subject that would have be best interest for me would me marketing. I am trying to recieve my buisiness BA.
+
+
+
+##Past adventures?  
+Have you ever gone to foreign countries, if so which ones, if not Where might you go in the future?  Have you ever been in the military, if so which branch, if not which branch would you choose if you got drafted, and why?
+
+###my answer     
+  
+   I have not even left California, i'd want to visit Venice, Italy as i've seen some pretty pictures. I have not been in the military, but if i got drafted i'd want to be drafted into the Air Force, because Jets seem cool.
+  
+
+
+
+
+##Why are you taking Math 115?  
+What grade do you need to attain in stats to not upset your future plans, What is your plan?
+ 
+
+###my answer     
+  I'd like to pbtain an A if possible, but i'd settle for a -A. My plan would be to get any kind of degree. I just want a diploma.
+ 
+
+
+
+
+
+##Homework Help and Getting around?  
+On a scale of 1 to 10, where 1 is a total dummy (doesn't know a mouse from a keyboard) and 10 is a complete geek (knows computer stuff in and out) How do you rate yourself?  Do you have a computer you can use at home? If so, what kind is it (windows, Apple, Linux)? Do you have internet access at home?  
+How do you get to class? Are there issues that limit when you can be at the college?Where and when did you attend high school?  Do you currently have a job?
+
+###my answer   
+  
+   I'd rate myself an 8, I am not Stephen Hawking but i'm not forrest gump either. I do have a touchscreen HP at home that i just got yesterday.I do have access to Wi-Fi at home. I get to class with my car. The only issue would be my unconsistent job ending time, as i work in West Hollywood. I attended High School at Pete Knight Highschool, graduated in 2018. I do currently have a job.
+  
+
+
+
+
